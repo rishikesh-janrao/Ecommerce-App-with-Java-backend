@@ -7,12 +7,9 @@ Specifications:
 3. DB - Mysql ready but not connected.
 
 Project Hierarchy:
-                    Ecomm - Master gradle project
-                                |
-                                V 
-                  =======================================
-                  |                                     |
-                  V                                     V
+                        Parent - Ecomm - Master gradle project
+                        
+              Child 1                               Child 2
              commissioner                         ecommerce-simple
        (a java spring boot server)    (an angular project with gradle installed)
 
