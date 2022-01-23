@@ -6,7 +6,15 @@ Specifications:
 2. Server - Java Spring boot application
 3. DB - Mysql ready but not connected.
 
-
+Project Hierarchy:
+                    Ecomm - Master gradle project
+                                |
+                                V 
+                  =======================================
+                  |                                     |
+                  V                                     V
+             commissioner                         ecommerce-simple
+       (a java spring boot server)    (an angular project with gradle installed)
 
 Steps to build project:
 
