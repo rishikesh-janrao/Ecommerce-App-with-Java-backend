@@ -1,0 +1,3 @@
+rootProject.name = 'ecomm'
+
+include 'commissioner','ecommerce-simple'
