@@ -13,6 +13,9 @@ Project Hierarchy:
              commissioner                         ecommerce-simple
        (a java spring boot server)    (an angular project with gradle installed)
 
+RepoLink of Angular app - https://github.com/rishikesh-janrao/ecommerce-simple
+
+
 Steps to build project:
 
   1. cd ecomm
