@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.google.gson.Gson;
 import com.striker.commissioner.models.product;
 import com.striker.commissioner.services.InventoryService;
 
@@ -22,8 +21,6 @@ public class ApiController {
 	@Autowired
 	public InventoryService invService;
 	
-	@Autowired
-	private Gson gson;
 	
 	//Returns all products
 	@CrossOrigin(origins = "http://localhost:4200")

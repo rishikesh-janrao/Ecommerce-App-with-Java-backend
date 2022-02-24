@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.google.gson.Gson;
 import com.striker.commissioner.models.product;
 
 @Service
